@@ -19,7 +19,11 @@ public class rumus {
         this.lebar = lebar;
         this.hasil = 0; 
     }
-
+    
+     public void hitungLuasPersegi() {
+        hasil = sisi * sisi;
+    }
+    
     public void hitungLuas() {
         hasil = panjang * lebar;
     }
