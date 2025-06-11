@@ -20,12 +20,23 @@ public class rumus {
         this.hasil = 0; 
     }
     
+     public rumus(int panjang, int lebar) {
+        this.sisi = 0;
+        this.panjang = panjang;
+        this.lebar = lebar;
+        this.hasil = 0;
+    }
+    
      public void hitungLuasPersegi() {
         hasil = sisi * sisi;
     }
     
     public void hitungLuas() {
         hasil = panjang * lebar;
+    }
+    
+    public int getHasil() {
+        return hasil;
     }
     
     public void tampilkanHasil() {
